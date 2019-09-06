@@ -143,8 +143,8 @@ h1 {
 h1 a:link,
 h1 a:visited {
   background: hsla(120, 15%, 95%, 0.8);
-  padding: 0.5em;
   backdrop-filter: blur(3px);
+  padding: 0.5em;
 }
 
 .pie {
