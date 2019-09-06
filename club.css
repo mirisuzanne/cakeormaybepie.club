@@ -137,9 +137,13 @@ html {
 }
 
 h1 {
+  text-align: center;
+}
+
+h1 a:link,
+h1 a:visited {
   background: hsla(120, 15%, 95%, 0.8);
   padding: 0.5em;
-  text-align: center;
   backdrop-filter: blur(3px);
 }
 
@@ -152,6 +156,8 @@ h1 {
   color: maroon;
 }
 
-h1:hover .pie {
+h1 a:hover .pie,
+h1 a:focus .pie,
+h1 a:active .pie {
   max-width: 100%;
 }
